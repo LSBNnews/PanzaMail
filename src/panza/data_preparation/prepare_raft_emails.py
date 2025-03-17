@@ -11,8 +11,8 @@ from tqdm import tqdm
 
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.dirname(__file__))))
 
-from panza.utils import rag
-from panza.utils.documents import Email
+from src.panza.utils import rag
+from src.panza.utils.documents import Email
 
 sys.path.pop(0)
 

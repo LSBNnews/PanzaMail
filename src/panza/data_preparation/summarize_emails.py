@@ -12,7 +12,7 @@ from transformers import AutoModelForCausalLM, AutoTokenizer, BitsAndBytesConfig
 
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.dirname(__file__))))
 
-from panza.utils import prompting
+from src.panza.utils import prompting
 
 sys.path.pop(0)
 

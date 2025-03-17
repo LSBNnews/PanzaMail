@@ -68,7 +68,7 @@ from llmfoundry.utils.registry_utils import import_file
 import hydra
 from omegaconf import DictConfig, OmegaConf
 
-from panza import PanzaWriter  # The import also loads custom Hydra resolvers
+from src.panza import PanzaWriter  # The import also loads custom Hydra resolvers
 
 log = logging.getLogger(__name__)
 
