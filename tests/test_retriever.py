@@ -1,10 +1,8 @@
 from datetime import datetime
 from pathlib import Path
 
-import pytest
-
-from panza.entities import Email
-from panza.retriever import FaissRetriever
+from src.panza.entities import Email
+from src.panza.retriever import FaissRetriever
 
 
 def get_faiss_retriever(

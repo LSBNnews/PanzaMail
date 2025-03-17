@@ -1,6 +1,6 @@
 from omegaconf import OmegaConf
 
-from .prompting.utils import load_preamble, load_user_preamble
+from src.panza.prompting.utils import load_preamble, load_user_preamble
 
 OmegaConf.register_new_resolver("load_preamble", load_preamble)
 OmegaConf.register_new_resolver("load_user_preamble", load_user_preamble)
@@ -43,13 +43,8 @@ PANZA_ASCII_LOGO = """     .    .        .                    .    .    .
      .:~=+^>)][[}{#%%@@@@@@@@@@@@@@@@@%%#{}}[])<>*+=-:.  .  
     .        . .         . .     ..            .     . .    """
 
-PANZA_ASCII_TEXT = """.______      ___      .__   __.  ________      ___      
-|   _  \    /   \     |  \ |  | |       /     /   \     
-|  |_)  |  /  ^  \    |   \|  | `---/  /     /  ^  \    
-|   ___/  /  /_\  \   |  . `  |    /  /     /  /_\  \   
-|  |     /  _____  \  |  |\   |   /  /----./  _____  \  
-| _|    /__/     \__\ |__| \__|  /________/__/     \__\ 
-                                                        """
+PANZA_ASCII_TEXT = ""
+
 
 print(PANZA_ASCII_LOGO)
 print(PANZA_ASCII_TEXT)
