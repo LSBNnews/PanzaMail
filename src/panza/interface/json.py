@@ -1,5 +1,5 @@
-from panza.entities.instruction import EmailInstruction
-from panza.writer import PanzaWriter
+from src.panza.entities.instruction import EmailInstruction
+from src.panza.writer import PanzaWriter
 
 import json
 import numpy as np

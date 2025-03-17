@@ -5,7 +5,7 @@ import hydra
 from omegaconf import OmegaConf
 from transformers import AutoConfig, AutoTokenizer
 
-from panza.entities import EmailInstruction
+from src.panza.entities import EmailInstruction
 
 PREPROCESSING_CONFIG_FILE = os.environ.get("PANZA_PREPROCESSING_CONFIG")
 if PREPROCESSING_CONFIG_FILE:

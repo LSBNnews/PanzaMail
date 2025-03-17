@@ -4,8 +4,8 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi import FastAPI, HTTPException, Header
 from fastapi.responses import StreamingResponse
-from panza.entities.instruction import EmailInstruction, Instruction
-from panza.writer import PanzaWriter
+from src.panza.entities.instruction import EmailInstruction, Instruction
+from src.panza.writer import PanzaWriter
 import uvicorn
 from pydantic import BaseModel
 from dotenv import load_dotenv

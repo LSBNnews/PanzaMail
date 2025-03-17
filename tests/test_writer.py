@@ -1,6 +1,6 @@
 from unittest.mock import MagicMock
 
-import pytest
+
 
 from src.panza.entities import EmailInstruction
 from src.panza.llm import LLM
