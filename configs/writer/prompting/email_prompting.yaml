@@ -4,6 +4,7 @@ defaults:
 _target_: panza.prompting.EmailPromptBuilder
 
 system_preamble: ${load_preamble:${user.system_preamble_path}}
+# system_preamble_path: "D:/PanzaMail/PanzaMail/prompt_preambles/system_preamble.txt"
 user_preamble: ${load_user_preamble:${user.user_preamble_path}}
 rag_preamble: ${load_preamble:${user.rag_preamble_path}}
 thread_preamble: ${load_preamble:${user.thread_preamble_path}}

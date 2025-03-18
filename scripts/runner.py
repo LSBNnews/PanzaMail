@@ -28,8 +28,13 @@ def set_latest_model(cfg: DictConfig) -> None:
     model_files = glob.glob(
         f"{cfg.checkpoint_dir}/models/*"
     )  # * means all if need specific format then *.csv
-    latest_file = max(model_files, key=os.path.getctime)
+    # latest_file = max(model_files, key=os.path.getctime)
+    if not model_files:
+        print("⚠️ Không tìm thấy mô hình trong thư mục checkpoint. Vui lòng kiểm tra lại.")
+        return  # Thêm return để tránh lỗi
 
+    latest_file = max(model_files, key=os.path.getctime)
+    
     OmegaConf.set_struct(cfg, False)
     cfg.checkpoint = latest_file
     OmegaConf.set_struct(cfg, True)
