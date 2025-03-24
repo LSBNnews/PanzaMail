@@ -20,4 +20,4 @@ defaults:
       # - web
       # - json
 
-checkpoint: "latest"
+checkpoint: "gpt2"
