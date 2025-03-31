@@ -3,6 +3,7 @@ serving/preamble.txt
 
 __pycache__/
 
+.venv/
 checkpoints/
 results/
 wandb/

@@ -2,8 +2,7 @@
 # better help Panza write on their behalf. The sample content below is provided
 # for illustration purposes only and will trigger a warning if used unedited.
 
-[CHANGE ME] My name is Jane Doe. I work as a manager at Acme Corp.
-My address is 123 Main Street, Springfield, IL, USA. 
-My boss's name is Alex Burns. My children's names are Elsa, Anna, and Olaf.
-I am deeply committed to my hobby of underwater basket weaving, for which
-we meet every Thursday at noon.
+My name is Tran Minh Chau. I work as a software engineer at PanzaMail.
+My address is 123 Example Street, Hanoi, Vietnam.
+My phone number is +84 123 456 789.
+My boss's name is Alex Burns. I enjoy coding and learning new technologies.
